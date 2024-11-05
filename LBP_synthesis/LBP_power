@@ -1,0 +1,61 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : LBP
+Version: V-2023.12
+Date   : Fri Oct 18 10:49:45 2024
+****************************************
+
+
+Library(s) Used:
+
+    UDVS_u018mmbc198v (File: /cad/CBDK/CBDK_UMC018_ITRI_v0.8/CIC/SynopsysDC/db/UDVS_u018mmbc198v.db)
+
+
+Operating Conditions: WC1D62VCOM   Library: UDVS_u018mmwc162v
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+LBP                    udp8K_Conservative
+                                         UDVS_u018mmwc162v
+
+
+Global Operating Voltage = 1.62 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  = 638.9402 uW   (84%)
+  Net Switching Power  = 117.2736 uW   (16%)
+                         ---------
+Total Dynamic Power    = 756.2139 uW  (100%)
+
+Cell Leakage Power     = 707.4664 nW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.5343            0.0000            0.0000            0.5343  (  70.58%)  i
+register       4.0219e-02        6.7281e-02          247.3872            0.1077  (  14.23%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational  6.4452e-02        4.9993e-02          460.0791            0.1149  (  15.18%)
+--------------------------------------------------------------------------------------------------
+Total              0.6389 mW         0.1173 mW       707.4664 nW         0.7569 mW
+1
