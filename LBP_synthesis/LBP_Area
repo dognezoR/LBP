@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : area
+Design : LBP
+Version: V-2023.12
+Date   : Fri Oct 18 10:49:45 2024
+****************************************
+
+Library(s) Used:
+
+    UDVS_u018mmbc198v (File: /cad/CBDK/CBDK_UMC018_ITRI_v0.8/CIC/SynopsysDC/db/UDVS_u018mmbc198v.db)
+
+Number of ports:                           33
+Number of nets:                           820
+Number of cells:                          742
+Number of combinational cells:            635
+Number of sequential cells:               107
+Number of macros/black boxes:               0
+Number of buf/inv:                         19
+Number of references:                      19
+
+Combinational area:               8329.216091
+Buf/Inv area:                      220.774402
+Noncombinational area:            6277.017567
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 14606.233657
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area           Local cell area
+                                  -------------------  ---------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-     Noncombi-  Black-
+                                  Total       Total    national   national   boxes   Design
+--------------------------------  ----------  -------  ---------  ---------  ------  ---------
+LBP                               14606.2337    100.0  8329.2161  6277.0176  0.0000  LBP
+--------------------------------  ----------  -------  ---------  ---------  ------  ---------
+Total                                                  8329.2161  6277.0176  0.0000
+
+1
