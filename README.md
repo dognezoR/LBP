@@ -13,7 +13,7 @@
   - **LBP_Post_Route_Timing_Reports_Hold/**：APR後的保持時間（Hold Time）時序報告。
   - 
   - **LBP_Post_Route_Timing_Reports_Setup/**：APR後的設置時間（Setup Time）時序報告。
-  - 
+    
 - **lbp_synthesis/**：此目錄包含合成過程中生成的各類報告和分析結果。
 - 
   - **LBP_Area/**：包含有關 LBP 電路面積分析的報告。
